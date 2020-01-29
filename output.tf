@@ -7,3 +7,4 @@ output "sg_name" {
 output "wordpress" {
     value = "${aws_route53_record.www.name}" 
     }
+
